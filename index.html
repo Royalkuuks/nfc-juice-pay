@@ -3,26 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tap to Pay - Coast Cane</title>
+  <title>Coast Cane Juice - Tap to Pay</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fffdf6;
+      color: #2c3e50;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
+      justify-content: flex-start;
+      min-height: 100vh;
       margin: 0;
+      padding: 20px;
+    }
+    img.logo {
+      width: 150px;
+      margin-top: 30px;
+      margin-bottom: 10px;
     }
     h1 {
-      color: #2c3e50;
       text-align: center;
+      font-size: 24px;
+      margin-bottom: 30px;
     }
     .button {
       display: block;
       width: 80%;
-      max-width: 300px;
+      max-width: 280px;
       background-color: #27ae60;
       color: white;
       padding: 15px;
@@ -36,11 +44,21 @@
     .button:hover {
       background-color: #1e8449;
     }
+    .footer {
+      margin-top: auto;
+      font-size: 12px;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
-  <h1>Tap to Pay for Juice</h1>
+  <img src="logo.png" alt="Coast Cane Juice Logo" class="logo" />
+  <h1>Coast Cane Juice – Tap to Pay</h1>
+
   <a href="tel:%2A713%2A0324%23" class="button">Pay 10 GHS</a>
   <a href="tel:%2A713%2A0324%23" class="button">Pay 20 GHS</a>
+
+  <div class="footer">Powered by Coast Cane Juice</div>
 </body>
 </html>
